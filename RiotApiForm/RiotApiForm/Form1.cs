@@ -74,7 +74,7 @@ namespace RiotApiForm
             var riotApi = MingweiSamuel.Camille.RiotApi.NewInstance(apiKeySearch);
             var matchInfo = riotApi.MatchV5.GetMatch(MingweiSamuel.Camille.Enums.Region.Americas, matchID);
 
-            //Game_Creation_Box.Text = matchInfo;
+            //Game_Creation_Box.Text = matchInfo
         }
 
 
